@@ -13,10 +13,12 @@ h2 {
   margin-left: .8rem; }
 
 /* NAVBAR STYLES */
-.navbar .navbar-brand {
-  font-family: "Abril Fatface", Cursive;
-  font-size: 2.5rem;
-  color: #4E5E55; }
+.navbar {
+  background-color: red; }
+  .navbar > .navbar-brand {
+    font-family: "Abril Fatface", Cursive;
+    font-size: 2.5rem;
+    color: #4E5E55; }
 
 /* HERO STYLES */
 .hero-image {
@@ -63,7 +65,21 @@ ul.list-group {
 
 /* FOOTER STYLES */
 footer {
-  margin-top: 15px; }
+  width: 100%;
+  height: 8rem;
+  background-color: #EC5E55;
+  margin-top: 1rem; }
+  footer ul {
+    text-align: center; }
+  footer li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 1.25rem .75rem 0 0;
+    text-align: center; }
+    footer li a {
+      color: #4E5E55; }
+    footer li .copyright {
+      margin-left: 6rem; }
 
 /* MEDIA QUERY */
 @media screen and (min-width: 700px) {

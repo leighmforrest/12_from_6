@@ -21,7 +21,9 @@ h2 {
 
 /* NAVBAR STYLES */
 .navbar {
-    .navbar-brand {
+    background-color: red;
+
+    >.navbar-brand {
         font-family: $FANCY;
         font-size: 2.5rem;
         color: $FONT_COLOR;
@@ -80,7 +82,27 @@ ul.list-group {
 
 /* FOOTER STYLES */
 footer {
-    margin-top: 15px;
+    width: 100%;
+    height: 8rem;
+    background-color: $NAVBAR;
+    margin-top: 1rem;
+    // text-align: center;
+
+    ul {
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        text-decoration: none;
+        margin: 1.25rem .75rem 0 0;
+        text-align: center;
+        a {
+            color: $FONT_COLOR;
+        }
+        .copyright {
+            margin-left: 6rem;
+        }
+    }
 }
 
 /* MEDIA QUERY */
